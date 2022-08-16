@@ -1,0 +1,220 @@
+:root {
+    --grey-1: rgb(36, 40, 77);
+    --grey-4: rgb(126, 105, 160);
+    --grey-7: rgb(201, 184, 199);
+
+    --blue-1: rgb(29, 50, 75);
+    --blue-4: rgb( 160, 145, 105);
+    --blue-7: rgb(  190, 200, 200);
+
+    --brown-1: rgb(50, 55, 60);
+    --brown-4: rgb( 201, 184, 199);
+    --brown-7: rgb( 220, 210, 165);
+
+    --red-1: rgb( 40, 35, 50);
+    --red-4: rgb(114, 69, 63);
+    --red-7: rgb(225, 180, 145); 
+}
+
+*  {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Navigation and Ribbon */
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: right;
+    background-color: var(--grey-7);
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav li {
+    text-align: center;
+    padding: 10px 10px;
+    color: var(--grey-1);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Add in code for underlining navs and changing color on hover */
+
+.headspace {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ribbon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red-4);
+    height: 50px;
+    border-top: 25px solid var(--red-1);
+    border-bottom: 25px solid var(--red-1);
+}
+
+.ribbon h1 {
+    font-size: x-large;
+    padding-right: 10px;
+    background: var(--red-4);
+    width: 100%;
+    text-align: right;
+    line-height: 18px;
+    color: var(--red-7);
+}
+
+/* Main body section */
+
+.tag {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    height: 55px;
+    width: 50px;
+    border-radius: 25px 0 0 25px;
+    background-color: var(--brown-1);
+    transition: all .7s ease;
+}
+
+.tag:hover {
+    width: 150px;
+}
+
+.tag::after {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    /* content: "Personal Landing Page HTML|CSS"; */
+    color: black;
+    text-align: center;
+    font-size: 0px;
+    transition: all 1s ease;
+}
+
+.tag:hover, .tag:hover::after{
+    color: white;
+    font-size: 15px;
+}
+
+.tag h1 {
+    position: relative;
+    top: 14px;
+    left: 15px;
+    font-size: 0px;
+    transition: all .7s ease;
+}
+
+.tag:hover, .tag:hover h1 {
+    font-size: 13px;
+}
+
+.tag h2 {
+    position: relative;
+    top: 18px;
+    left: 15px;
+    font-size: 0px;
+    transition: all .7s ease;
+}
+
+.tag:hover, .tag:hover h2 {
+    font-size: 10px;
+}
+
+figure {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110px;
+    background-color: grey;
+    margin: 20px;
+    min-width: 446;
+    border-radius: 25px;
+}
+
+figure.best-work {
+    flex: 5 1 100%;
+    max-width: 600px;
+    min-width: 400px;
+    height: 300px;
+    padding: 0 20%;
+    background-image: url(./assets/imgs/refactor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 40%;
+    margin-left: 20px;
+    box-shadow: inset 0px 0px 0px 5px black;
+
+}
+figure.reg-work {
+    flex: .5 0 0%;
+    max-width: 200px;
+    min-width: 80px;
+    height: 200px;
+    padding: 0 20%;
+    background-image: url(./assets/imgs/landing.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-position-y: 40%;
+    margin-left: 20px;
+    box-shadow: inset 0px 0px 0px 5px black;
+}
+
+figure.reg-work.two {
+    background-image:url(./assets/imgs/cards.png)
+}
+
+figure.reg-work.three {
+    background-image: url(./assets/imgs/prework.png);
+    background-position: top;
+}
+
+
+/* Tag animation */
+
+figure.best-work:hover {
+    box-shadow: 0px 0px 10px 10px solid var(--red-4);
+    /* Something is amiss here. Figure it out */
+}
+
+
+
+
+
+
+
+
+
+/* Wiggle animation on hover-over */
+/* @keyframes wiggle {
+    0% { transform: rotate(0deg); } 
+   10% { transform: rotate(0deg); }
+   15% { transform: rotate(5deg); }
+   25% { transform: rotate(-5deg); }
+  30% { transform: rotate(0deg); }
+}
+
+figure.wiggle {
+  display: inline-block;
+  animation: none;
+}
+
+figure.wiggle:hover {
+  animation: wiggle 1s 1;
+} */
