@@ -325,11 +325,7 @@ footer h2{
     line-height: -15px;
 }
 
-
-/* a:hover {
-    text-decoration-line: underline;
-} */
-
+/* Adding in an animated underline */
 a {
     position: relative;
 }

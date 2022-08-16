@@ -1,15 +1,3 @@
-<!-- Acceptance Criteria
-    -
-    My work section should have titled images on my apps DONE?!
-    -
-    Clicking on the image cards should take me to the deployed app DONE?!
-    -
-    When the screen gets small, change the orientation of the titles 
-    and body sections of my site
- -->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,8 +9,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
+<!-- Start base code, top to bottom -->
 <body>
-    <!-- Adding in an avatar picture -->
+
+    <!-- Adding in an avatar picture for the upper-left corner -->
     <section>
         <img class="avatar" src="./assets/imgs/Bauldren.png" alt="Personal avatar">
         <img class="avatarBorder">
@@ -43,16 +33,13 @@
                 </li>
             </ul>
         </nav>
-        <!-- Make header the same color as the nav. 
-            Try to animate ribbon over header area -->
+
         <header class="ribbon">
             <h1>stevengoldbergm</h1>
         </header> 
     </section>   
 
-    <!-- Middle section is for various article boxes. 
-        Three flex boxes in column orientation, but each box has two flex boxes
-        in row orientation -->
+    <!-- Middle section is for various article boxes. Three flex boxes in column orientation, but each box has two flex boxes in row orientation -->
     <section class="midspace">
 
         <!-- about me -->
@@ -60,7 +47,7 @@
             <section class="left">
                 <h2>ABOUT ME</h2>
             </section>
-
+            <!-- No way I have time to write this. -->
             <section class="right">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -71,23 +58,25 @@
             </section>
         </article>
 
-        <!-- work -->
+        <!-- My Work section -->
         <article id="work">
             <section class="left">
                 <h2>MY WORK</h2>
             </section>
 
+            <!-- Start building the cards that will take up the next 40 hours of project time -->
+            <!-- Started with the past homework project. Best is subjective -->
             <section class="right">
                 <figure class="best-work">
-
+                    <!-- Added in animated tags, because I have no self-control -->
                         <div class="tag">
                             <a href="https://stevengoldbergm.github.io/Code-Refactor/">
                                 <h1>Code Refactor</h1>
                             </a>
                             <h2>HTML | CSS</h2>
                         </div>
-
                 </figure>
+                <!-- New base for the rest of the cards -->
                 <figure class="reg-work">
                     <div class="tag">
                         <a href="https://stevengoldbergm.github.io/landing-page/">
@@ -118,7 +107,7 @@
             </section>
         </article>
 
-        <!-- contact -->
+        <!-- Contact Me section -->
         <article id="contact">
             <section class="left">
                 <h2>CONTACT ME</h2>
@@ -126,6 +115,7 @@
 
             <section class="right">
                 <ul class="contact-links">
+                    <!-- So apparently formatting breaks if you use a link tag to open up an e-mail address. Why. -->
                     <li>
                         <a class ="contact-links" href="mailto:me@e-mail.com">E-MAIL</a>
                     </li>
@@ -144,7 +134,7 @@
     </section>
 
     
-    <!-- Standard Footer -->
+    <!-- Standard Footer. The end is in sight-->
     <section>
         <footer>
             <h2>
