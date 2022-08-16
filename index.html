@@ -1,3 +1,15 @@
+<!-- Acceptance Criteria
+    -
+    My work section should have titled images on my apps DONE?!
+    -
+    Clicking on the image cards should take me to the deployed app DONE?!
+    -
+    When the screen gets small, change the orientation of the titles 
+    and body sections of my site
+ -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +22,12 @@
 </head>
 
 <body>
+    <!-- Adding in an avatar picture -->
+    <section>
+        <img class="avatar" src="./assets/imgs/Bauldren.png" alt="Personal avatar">
+        <img class="avatarBorder">
+    </section>
+    
     <!-- Top section is for navigation and title ribbon -->
     <section class="headspace">
         <nav>
@@ -44,55 +62,58 @@
             </section>
 
             <section class="right">
-                <p>This is where I will put my "About Me" section</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
             </section>
         </article>
 
         <!-- work -->
         <article id="work">
             <section class="left">
-                <h2>WORK</h2>
+                <h2>MY WORK</h2>
             </section>
 
             <section class="right">
-                <figure class="best-work wiggle">
+                <figure class="best-work">
+
+                        <div class="tag">
+                            <a href="https://stevengoldbergm.github.io/Code-Refactor/">
+                                <h1>Code Refactor</h1>
+                            </a>
+                            <h2>HTML | CSS</h2>
+                        </div>
+
+                </figure>
+                <figure class="reg-work">
                     <div class="tag">
-                        <h1>Code Refactor</h1>
+                        <a href="https://stevengoldbergm.github.io/landing-page/">
+                            <h1>Landing Page</h1>
+                        </a>
                         <h2>HTML | CSS</h2>
                     </div>
                 </figure>
 
-                <figure class="reg-work wiggle">
+                <figure class="reg-work two">
                     <div class="tag">
-                        <h1>Personal Landing Page</h1>
+                        <a href="https://stevengoldbergm.github.io/flexibleBoxes/">
+                            <h1>Flexible Boxes</h1>
+                        </a>
                         <h2>HTML | CSS</h2>
                     </div>
                 </figure>
 
-                <figure class="reg-work two wiggle">
+                <figure class="reg-work three">
                     <div class="tag">
-                        <h1>Flexible Boxes</h1>
-                        <h2>HTML | CSS</h2>
-                    </div>
-                </figure>
-
-                <figure class="reg-work three wiggle">
-                    <div class="tag">
-                        <h1>Prework Study-Guide</h1>
+                        <a href="https://stevengoldbergm.github.io/prework-study-guide/">
+                            <h1>Prework Study-Guide</h1>
+                        </a>
                         <h2>HTML | CSS | JS</h2>
                     </div>
                 </figure>
-
-                        <style>
-                            /* This doesn't matter. .tag is the way */
-                            /* div {
-                                position: relative;
-                                padding: 0;
-                            } */
-                            
-                            
-
-                        </style>
 
             </section>
         </article>
@@ -104,80 +125,24 @@
             </section>
 
             <section class="right">
-                <ul>
+                <ul class="contact-links">
                     <li>
-                        <a href="">e-mail</a>
+                        <a class ="contact-links" href="mailto:me@e-mail.com">E-MAIL</a>
                     </li>
                     <li>
-                        <a href="">github</a>
+                        <a href="https://github.com/stevengoldbergm">GITHUB</a>
                     </li>                    
                     <li>
-                        <a href="">twitter</a>
+                        <a href="https://twitter.com/">TWITTER</a>
                     </li>
                     <li>
-                        <a href="">linkedin</a>
+                        <a href="https://www.linkedin.com/">LINKEDIN</a>
                     </li>
                 </ul>
             </section>
         </article>
     </section>
 
-    <style>
-        .midspace {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .midspace article {
-            display: flex;
-        }
-
-        section article {
-            display: flex;
-            justify-content: space-between;
-            height: 1fr;
-            margin: 10px 0;
-        }
-
-        article section.left {
-            flex: .6 0;
-            display: block;
-            padding: 0 45px 0px 10px;
-            height: auto;
-            width: 100px;
-            border-right: 1px solid black;
-            margin: 5px;
-
-        }
-
-        article section.right {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            flex: 5;
-        }
-
-        .right p {
-            width: 85%;
-            text-align: left;
-        }
-
-        .right ul {
-            display: flex;
-            justify-content: left;
-            width: 85%;
-        }
-        
-        .right li {
-            text-align: center;
-            padding: 10px 10px;
-        }
-
-        .right a {
-            text-decoration: none;
-        }
-    </style>
     
     <!-- Standard Footer -->
     <section>
@@ -187,25 +152,6 @@
             </h2>
         </footer>
     </section>
-
-    <style>
-        footer {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            background-color: red;
-            height: 50px;
-            border-top: 16px solid brown;
-            border-bottom: 16px solid brown;
-        }
-
-        footer h2{
-            background: red;
-            color: white;
-            line-height: -10px;
-        }
-
-    </style>
 
 </body>
 </html>
