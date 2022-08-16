@@ -10,12 +10,6 @@ It has the following features:
 - Complex CSS styling, including flex-boxes
 - Dynamic design that changes to match your viewport
 
-See below for some images:
-
-
-![Dynamic design](./assets/imgs/Tall-Mode.jpg)
-
-
 ## Installation
 N/A
 
