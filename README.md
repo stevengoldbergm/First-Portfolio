@@ -14,6 +14,8 @@ It has the following features:
 N/A
 
 ## Usage
+
+See the published site: [here](https://stevengoldbergm.github.io/Portfolio/)
 - To use the webpage, simply click the links in the navigation bar to be brought to the appropriate section. 
 - When you hover over a link, an underline should grow from beneath it.
 ![Animated Underline Navigation Bar](./assets/imgs/animated-navigation.jpg)
