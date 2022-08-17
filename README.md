@@ -10,16 +10,12 @@ It has the following features:
 - Complex CSS styling, including flex-boxes
 - Dynamic design that changes to match your viewport
 
-See below for some images:
-
-
-![Dynamic design](./assets/imgs/Tall-Mode.jpg)
-
-
 ## Installation
 N/A
 
 ## Usage
+
+See the published site: [here](https://stevengoldbergm.github.io/Portfolio/)
 - To use the webpage, simply click the links in the navigation bar to be brought to the appropriate section. 
 - When you hover over a link, an underline should grow from beneath it.
 ![Animated Underline Navigation Bar](./assets/imgs/animated-navigation.jpg)
