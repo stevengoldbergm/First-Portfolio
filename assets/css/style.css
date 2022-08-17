@@ -73,11 +73,12 @@ nav ul {
 nav li {
     text-align: center;
     padding: 10px 10px;
-    color: var(--grey-1);
+    color: var(--red-1);
 }
 
 nav a {
     text-decoration: none;
+    color: var(--red-1);
 }
 
 /* Add in code for underlining navs and changing color on hover */
@@ -181,10 +182,12 @@ article section.right {
 .right li {
     text-align: center;
     padding: 10px 10px;
+    color: var(--grey-7);
 }
 
 .right a {
     text-decoration: none;
+    color: var(--grey-7);
 }
 
 /* Setting up images and cards */
