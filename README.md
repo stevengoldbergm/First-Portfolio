@@ -2,7 +2,7 @@
 ![Image of my site in long-height mode](./assets/imgs/Tall-Mode.jpg)
 
 ## Description
-This professional portfolio project was a test of my abilities to build a site from scrath using HTML and CSS.
+This professional portfolio project was a test of my abilities to build a site from scratch using HTML and CSS.
 It has the following features:
 - Semantic HTML tags for clarity of code
 - External CSS sheet with a proper reset to reduce compatibility issues
