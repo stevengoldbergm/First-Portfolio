@@ -256,15 +256,15 @@ figure {
 
 figure.best-work {
     flex: 5 1 100%;
-    max-width: 600px;
+    max-width: 700px;
     min-width: 400px;
     height: 300px;
     padding: 0 20%;
-    background-image: url(../imgs/refactor.png);
+    background-image: url(../imgs/MovieMate-01.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-position-y: 40%;
+    background-position-y: 0%;
     margin-left: 20px;
     box-shadow: inset 0px 0px 0px 5px var(--brown-1);
 
@@ -291,6 +291,10 @@ figure.reg-work.two {
 
 figure.reg-work.three {
     background-image: url(../imgs/prework.png);
+    background-position: top;
+}
+figure.reg-work.four {
+    background-image: url(../imgs/refactor.png);
     background-position: top;
 }
 
@@ -396,7 +400,7 @@ a:hover::before {
         max-width: 200px;
         height: 100px;
         padding: 0 20%;
-        background-image: url(../imgs/refactor.png);
+        background-image: url(../imgs/MovieMate-02.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
