@@ -276,7 +276,7 @@ figure.reg-work {
     min-width: 80px;
     height: 200px;
     padding: 0 20%;
-    background-image: url(../imgs/landing.png);
+    background-image: url(../imgs/MovieMate-01.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
@@ -297,7 +297,10 @@ figure.reg-work.four {
     background-image: url(../imgs/refactor.png);
     background-position: top;
 }
-
+figure.reg-work.five {
+    background-image: url(../imgs/refactor.png);
+    background-position: top;
+}
 /* Contact links */ 
 .contact-links {
     color: var(--grey-7);
